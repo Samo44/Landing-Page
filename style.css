@@ -98,13 +98,6 @@ img {
 
 /* SECTION 2 */
 
-.info-boxes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4em;
-}
-
 .info-header {
     text-align: center;
     font-size: 36px;
@@ -113,6 +106,13 @@ img {
 }
 
 .info-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+
+.info-boxes {
     max-width: 10em;
     display: flex;
     flex-direction: column;
@@ -132,6 +132,6 @@ img {
     margin: 1em;
 }
 
-.info-boxes {
+.info-content {
     margin-bottom: 6em;
 }
