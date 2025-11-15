@@ -135,3 +135,31 @@ img {
 .info-content {
     margin-bottom: 6em;
 }
+
+/* SECTION 3 */
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 8em 0 8em 0;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    width: 22.5em;
+
+    margin: 0;
+}
+
+.quote-subtext {
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0;
+}
